@@ -1,2 +1,58 @@
+*{
+   box-sizing:border-box;
+   
+}
+header{
+    padding:10px;
+    background-color:#2C293A;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-family:Verdana;
+}
+h2,p{
+    color:white;
+    font-family:Verdana;
+}
+.bloques{
+    
+    
+    
+    
+}
+body{
+    background-color: #11111B;
+}
+nav{
+float:left;
+padding:20px;
+widht:30%;
+height:250px;
+background-color:#212F3C;
+}
 
-//xd
+article{
+    float:left;
+    padding 20px;
+    widht:70%;
+    height:250px;
+    background-color:#212F3C;
+}
+
+section::after{
+    content:"";
+    display: table;
+    clear: both;
+    
+}
+
+@media(max-widht:600px){
+    nav, article{
+        widht:100%;
+        height:auto;
+    }
+    
+}
