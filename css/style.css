@@ -17,27 +17,23 @@ h2,p{
     color:white;
     font-family:Verdana;
 }
-.bloques{
-    
-    
-    
-    
-}
+
+
 body{
     background-color: #11111B;
 }
 nav{
 float:left;
 padding:20px;
-widht:30%;
+width:30%;
 height:250px;
 background-color:#212F3C;
 }
 
 article{
     float:left;
-    padding 20px;
-    widht:70%;
+    padding:20px;
+    width:70%;
     height:250px;
     background-color:#212F3C;
 }
@@ -51,7 +47,7 @@ section::after{
 
 @media(max-widht:600px){
     nav, article{
-        widht:100%;
+        width:100%;
         height:auto;
     }
     
