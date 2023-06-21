@@ -21,11 +21,12 @@ h2,h4,p{
 
 body{
     background-color: #e0e0e0;
+    font-family: monospace;
 }
 nav{
 float:left;
 padding:20px;
-width:30%;
+width:20%;
 height:100%;
 background-color:#1c153b;
 }
@@ -33,7 +34,7 @@ background-color:#1c153b;
 article{
     float:left;
     padding:20px;
-    width:70%;
+    width:80%;
     height:70%;
     background-color:#ffffff;
 }
@@ -48,5 +49,11 @@ section::after{
     color:white;
 
 
+}
+.botones:hover{
+
+    color:rgb(28, 185, 28);
+
+ 
 }
 
