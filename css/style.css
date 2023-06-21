@@ -4,7 +4,7 @@
 }
 header{
     padding:10px;
-    background-color:#2C293A;
+    background-color:#1d1c79;
     display: flex;
     justify-content: space-between;
 }
@@ -13,29 +13,29 @@ a{
     color:white;
     font-family:Verdana;
 }
-h2,p{
-    color:white;
+h2,h4,p{
+    color:rgb(0, 0, 0);
     font-family:Verdana;
 }
 
 
 body{
-    background-color: #11111B;
+    background-color: #e0e0e0;
 }
 nav{
 float:left;
 padding:20px;
 width:30%;
-height:250px;
-background-color:#212F3C;
+height:100%;
+background-color:#1c153b;
 }
 
 article{
     float:left;
     padding:20px;
     width:70%;
-    height:250px;
-    background-color:#212F3C;
+    height:70%;
+    background-color:#ffffff;
 }
 
 section::after{
@@ -44,11 +44,9 @@ section::after{
     clear: both;
     
 }
+.txth{
+    color:white;
 
-@media(max-widht:600px){
-    nav, article{
-        width:100%;
-        height:auto;
-    }
-    
+
 }
+
