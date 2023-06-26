@@ -14,7 +14,7 @@ header {
   top: 0;
   left: 0;
   padding: 10px;
-  background-color: #78ad7b;
+  background-color: #53AA99;
   z-index: 999;
 }
 a{
@@ -43,14 +43,16 @@ nav {
   padding: 20px;
   width: 20%;
   height: 100%;
-  background-color: #3b856d;
+  background-color: #274649;
+  position: fixed;
+  padding-bottom: 20px;
 }
 
 article {
   float: left;
-  padding: 20px;
-  width: 80%;
-  background-color: #dae0ba;
+  padding-left: 21%;
+  width: 100%;
+  background-color: #DEDBC9;
 }
 
 section {
