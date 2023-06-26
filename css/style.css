@@ -1,9 +1,12 @@
 * {
   box-sizing: border-box;
 }
+p{
+  font-size: 14px;
+}
 
 body {
-  margin: 0; /* Asegura que no haya márgenes en el cuerpo del documento */
+  margin: 0;
   background-color: #e0e0e0;
   font-family: monospace;
 }
@@ -16,6 +19,7 @@ header {
   padding: 10px;
   background-color: #53AA99;
   z-index: 999;
+  align-items: justify;
 }
 a{
     text-decoration:none;
@@ -31,7 +35,7 @@ header a {
 
 header .bloques {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 200px;
 }
 
 header .botones:hover {
@@ -58,12 +62,25 @@ article {
 
 section {
   margin-top: 70px;
-  clear: both; /* Asegura que los elementos flotantes no se superpongan */
+  clear: both;
 }
 header .txth{
     color: white;
 }
 header .txth:hover{
-    background color 
+    background-color: rgb(78, 143, 36);
     
+}
+.imagenes{
+  width: 140px;
+  height: auto;
+}
+
+.div-img{
+display: inline-block;
+
+}
+.div-img img{
+float: left;
+margin-right: 20px;
 }
