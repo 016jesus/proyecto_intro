@@ -3,12 +3,13 @@
 }
 p{
   font-size: 14px;
+  
 }
 
 body {
   margin: 0;
   background-color: #e0e0e0;
-  font-family: monospace;
+  font-family: Bahnschrift;
 }
 
 header {
@@ -17,60 +18,61 @@ header {
   top: 0;
   left: 0;
   padding: 10px;
-  background-color: #53AA99;
-  z-index: 999;
+  background-color: #7facf0;
+  z-index: 999; 
   align-items: justify;
+  margin-bottom: 12px;
 }
 a{
     text-decoration:none;
-    color:white;
+    color:rgb(255, 255, 255);
+    text-shadow: black 1px 1px 1px;
 }
-h2, h3, p, h1{
+article h2, h3, p, h4, h1{
     color: black;
-}
-header a {
-  text-decoration: none;
-  color: white;
 }
 
 header .bloques {
   display: inline-block;
-  margin-right: 200px;
+  border-radius: 200px;
+  margin-right: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+
 }
 
-header .botones:hover {
-  color: rgb(28, 185, 28);
+header .bloques:hover{
+background-color: #f0f0f0;
+padding-left: 20px;
+padding-right: 20px;
+
 }
 
+/* barra lateral izquierda */
 nav {
-  float: left;
-  
+  float: left; 
   width: 17%;
   height: 100%;
-  background-color: #274649;
+  background-color: #7facf09a;
   position: fixed;
-  padding-bottom: 20px;
+  
 }
 
+/* Cuadro general de la pagina */
 article {
   float: left;
   padding-left: 18%;
   padding-right: 1%;
   width: 100%;
-  background-color: #DEDBC9;
+  background-color: #ffffff;
 }
 
 section {
   margin-top: 70px;
   clear: both;
 }
-header .txth{
-    color: white;
-}
-header .txth:hover{
-    background-color: rgb(78, 143, 36);
-    
-}
+
 .imagenes{
   width: 140px;
   height: auto;
@@ -85,9 +87,10 @@ float: left;
 margin-right: 20px;
 }
 .so{
-width: 700px;
+width: 100%;
 height: 300px;
 object-fit: none;
+align-self: center;
 
 }
 footer{
@@ -121,4 +124,7 @@ th {
 .txttabla{
 
   align-items: center;
+}
+.txt_arriba{
+ color: white;
 }
