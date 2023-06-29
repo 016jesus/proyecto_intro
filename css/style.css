@@ -34,18 +34,23 @@ article h2, article p, article h4, article h1{
 
 header .bloques {
   display: inline-block;
-   border-radius: 200px;
+  border-radius: 200px;
   margin-right: 150px;
   padding-left: 20px;
   padding-right: 20px;
-  color: white;
- 
-
+  background-color: #f0f0f0;
+  transition: padding-left 0.5s;
+  transition: padding-right 0.5s;
+}
+header .txt_arriba{
+  color: black;
 }
 
  header .bloques:hover{
-background-color: #f0f0f0;
-color: black;
+  background-color: #f0f0f0;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
 
 } 
 .bloques:hover .txt_arriba{
@@ -98,7 +103,11 @@ width: 100%;
 height: 300px;
 object-fit: none;
 align-self: center;
+transition: height 0.5s;
 
+}
+.so:hover{
+height: 340px;
 }
 footer{
  position: relative;
