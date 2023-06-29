@@ -28,25 +28,28 @@ a{
     color:rgb(255, 255, 255);
     text-shadow: black 1px 1px 1px;
 }
-article h2, h3, p, h4, h1{
+article h2, article p, article h4, article h1{
     color: black;
 }
 
 header .bloques {
   display: inline-block;
-  border-radius: 200px;
+   border-radius: 200px;
   margin-right: 150px;
   padding-left: 20px;
   padding-right: 20px;
   color: white;
+ 
 
 }
 
-header .bloques:hover{
+ header .bloques:hover{
 background-color: #f0f0f0;
-padding-left: 20px;
-padding-right: 20px;
+color: black;
 
+} 
+.bloques:hover .txt_arriba{
+  color: black;
 }
 
 /* barra lateral izquierda */
@@ -76,8 +79,12 @@ section {
 .imagenes{
   width: 140px;
   height: auto;
+  transition: width 0.5s;
 }
-
+.imagenes:hover{
+width: 180px;
+height: auto;
+}
 .div-img{
 display: inline-block;
 
@@ -117,9 +124,13 @@ th {
 }
 
 .tamañoimagen{
-
   width: 100px;
   height: auto;
+  transition: width 0.5s;
+}
+.tamañoimagen:hover{
+width: 140px;
+height: auto;
 }
 .txttabla{
 
@@ -128,3 +139,5 @@ th {
 .txt_arriba{
  color: white;
 }
+
+ 
