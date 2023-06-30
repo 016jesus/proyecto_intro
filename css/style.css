@@ -39,7 +39,7 @@ article h2, article p, article h4, article h1{
 header .bloques {
   display: inline-block;
   border-radius: 200px;
-  margin-right: 150px;
+  margin-right: 80px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #7facf0;
