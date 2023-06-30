@@ -12,6 +12,7 @@ body {
   font-family: Bahnschrift;
 }
 
+/*barra superior*/
 header {
   width: 100%;
   position: fixed;
@@ -32,30 +33,38 @@ article h2, article p, article h4, article h1{
     color: black;
 }
 
+
+
+/*Botones barra superior*/
 header .bloques {
   display: inline-block;
   border-radius: 200px;
   margin-right: 150px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #f0f0f0;
-  transition: padding-left 0.5s;
+  background-color: #7facf0;
   transition: padding-right 0.5s;
 }
-header .txt_arriba{
-  color: black;
-}
+
 
  header .bloques:hover{
   background-color: #f0f0f0;
   color: black;
-  padding-left: 30px;
   padding-right: 30px;
 
 } 
+
+.txt_arriba{
+  color: white;
+ }
+ 
+
 .bloques:hover .txt_arriba{
   color: black;
 }
+
+
+
 
 /* barra lateral izquierda */
 nav {
@@ -64,7 +73,6 @@ nav {
   height: 100%;
   background-color: #7facf09a;
   position: fixed;
-  
 }
 
 /* Cuadro general de la pagina */
@@ -144,9 +152,6 @@ height: auto;
 .txttabla{
 
   align-items: center;
-}
-.txt_arriba{
- color: white;
 }
 
  
